@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BankApp
 {
-    class Semicolon
+    class TextHandler
     {
         //Method to split the information after every semicolon, retrieved from the text file. 
         public static void SplitSemicolon()

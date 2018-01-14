@@ -12,7 +12,7 @@ namespace BankApp
         public void StartBankApp()
         {
             BankDataFile.ReadBankData();
-            Semicolon.SplitSemicolon();
+            TextHandler.SplitSemicolon();
             Menu.MenuAsText();
             Menu.MenuSwitch();
         }
@@ -21,7 +21,7 @@ namespace BankApp
         public void EndSession()
         {
             Console.WriteLine("*Avsluta och spara *");
-            Semicolon.UniteWithSemicolon();
+            TextHandler.UniteWithSemicolon();
             BankDataFile.WriteBankData();
             Console.WriteLine("Antal kunder: " + Customer.customers.Count);
             Console.WriteLine("Antal konton: " + Account.accounts.Count);

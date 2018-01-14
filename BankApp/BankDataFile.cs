@@ -10,7 +10,10 @@ namespace BankApp
 {
     class BankDataFile
     {
-        private static string bankDataPath = @"C:\Dev\PROG17\BankApp\BankApp\bankdata.txt";
+
+        private static string bankDataPath = @"D:\Dev\github\BankApp\BankApp\bankdata.txt";
+
+
 
         //information of customer and accounts added to the list from text file
         public static List<string> customersInFile = new List<string>();
